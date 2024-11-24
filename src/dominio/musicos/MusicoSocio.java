@@ -12,8 +12,8 @@ public class MusicoSocio extends Musico {
     public String toString() {
         StringBuilder sb = new StringBuilder();
 
-        sb.append(getNombre() + ", ")
-            .append(getRol() + ", ")
+        sb.append(super.toString())
+            .append(", ")
             .append(getInstrumento() + ", ")
             .append("numero de socio: " + this.idSocio);
 
